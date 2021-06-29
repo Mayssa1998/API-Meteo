@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Météo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="API.css">    
+</head>
+<body>
+
+      <section class="top-banner">
+        <div class="container">
+          <h1 class="heading"> Weather App</h1>
+          <form>
+            <input type="text" placeholder="Search for a city" autofocus>
+            <button type="submit">SUBMIT</button>
+            <span class="msg"></span>
+          </form>
+        </div>
+      </section>
+      <section class="ajax-section">
+        <div class="container">
+          <ul class="cities"></ul>
+        </div>
+      </section>
+      <footer class="page-footer">
+        <div class="container">
+          <small>Made with <span>❤</span> by <a href="https://www.facebook.com/jawadi.mayssa.1" target="_blank">Mayssa Jawadi</a>
+          </small>
+        </div>
+      </footer>
+      <script src="API.js"></script>
+</body>
+</html>
